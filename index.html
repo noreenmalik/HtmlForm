@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <!-- Form Heading  -->
+
+    <div id="head">
+        <h2>Client Details</h2>
+        <p>Enter the details of all incoming clients.</p>
+
+    </div>
+
+    <!-- HTML Form -->
+
+    <div id="form">
+        <form action="">
+
+            <label for="cn">Client Name
+            </label>
+            <input type="text" name="clientName" id="cn" required><br>
+
+            <label for="comp"> Company <em class="icon">*</em></label>
+            <input type="text" name="company" id="comp" required><br>
+
+            <label for="title">Title</label>
+            <input type="text" name="title" id="title"><br>
+
+            <label for="deprtmnt">Department <em class="icon">*</em></label>
+            <select name="Department" id="deprtmnt">
+                <option value="select" selected>-Select-</option>
+                <option value="service dprtmnt">Service Department</option>
+                <option value="supply chain management">Supply Chain Management</option>
+                <option value="production ">production and Quality Assurance</option>
+                <option value="finance ">Finance </option>
+                <option value="information technology">Information Technology</option>
+            </select> <br>
+
+            <label for=" contct method">Preferred Contact Method
+                <em class="icon">*</em>
+            </label>
+
+            <input type="radio" name="contact method" value="email" required> Email
+
+            <input type="radio" name="contact method" value="phone"> Phone <br>
+
+            <label for="Comp addr">Company address<em class="icon">*</em></label>
+            <input type="text" name="Street Address 1" id="addrline-1" required>
+            <p class="addr">Street Address</p>
+            <label for=""></label>
+
+            <input type="text" name="Street Address 2" id="addrline-2">
+            <p class="addr">Address Line 2</p><br>
+
+
+            <label for=""></label>
+            <input type="text" name="city" class="sub-input" >
+
+            <input type="text" name="State/Region/Province" id="State " class="sub-input"><br>
+
+            <span id="city"> City</span>
+            <span id="State"> State/Region/Province</span><br><br>
+
+            <label for=""></label>
+            <input type="text" title="Five digit zip code" pattern="[0-9]{5}" maxlength="5"class="sub-input">
+
+            <select name="Country" id="country" class="sub-input">
+                <option value="select" selected>-Select-</option>
+                <option value="pak">Pakistan</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="US">United State</option>
+                <option value="India ">India</option>
+                <option value=" Iceland">Iceland </option>
+
+            </select> <br>
+
+            <span id="zip"> Postal / Zip Code</span>
+            <span id="Country"> Country</span><br><br>
+
+            <label for="c-site">Company Website <em class="icon">*</em>
+            </label>
+            <input type="url" name="cWebsite" id="c-site"><br><br>
+
+
+            <label for="clogo"> Company Logo</label>
+            <input type="file" name="" id="file"><br><br>
+
+            <label for="wH">Working Hours <em class="icon">*</em></label>
+            <input type="time" name="workingHour" id="" value="9:00-18:00"><br>
+
+            <label for="wD">Working Days <em class="icon">*</em></label>
+            <input type="date" id="start" name="workingDay" value="Monday-Saturday"><br>
+
+            <label for="bC">Billing Cycle <em class="icon">*</em></label>
+            <input type="date" name="billingCycle" id=""><br>
+
+            <label for="aI">Additional Information</label>
+            <textarea name="" id="al" cols="60" rows="5"></textarea>
+
+            <br><br>
+
+
+            <input type="submit" value="Submit">
+
+
+        </form>
+
+    </div>
+    <br>
+
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Merriweather;
+    font-size: 20px;
+    font-style: normal;
+    box-sizing: border-box;
+    width: auto;
+
+}
+
+#head {
+    background-color: #376192;
+    height: 95px;
+
+}
+
+h2 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+}
+
+p {
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+input:required::after{
+    content: "*";
+    color: #ff0000;
+
+}
+
+#form {
+
+    padding: 1px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+label {
+
+    display: inline-block;
+    width: 300px;
+    margin: 10px 0;
+    padding: 5px 5px;
+
+}
+
+input[type="text" i] {
+
+    width: 30%;
+    padding: 5px 5px;
+    border: 1px solid #bbbbbb;
+    border-radius: 2px;
+
+}
+
+input[type="url" i] {
+
+    width: 30%;
+    padding: 5px 5px;
+    border: 1px solid #bbbbbb;
+    border-radius: 2px;
+}
+
+select {
+
+    width: 30%;
+    padding: 5px 5px;
+    border: 1px solid #bbbbbb;
+    border-radius: 2px;
+
+}
+
+.icon {
+    color: #ff0000;
+    font-weight: normal;
+}
+
+.addr {
+
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #888888;
+    margin-right: 51.9%;
+
+}
+
+#addrline-1 {
+    width: 55.45%;
+}
+
+#addrline-2 {
+    width: 55.45%;
+}
+
+#city {
+
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #888888;
+    margin-right: 25.5%;
+    margin-left: 20.5%;
+
+}
+
+#State {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #888888;
+
+}
+
+#zip {
+
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #888888;
+    margin-right: 19.5%;
+    margin-left: 20.5%;
+
+}
+
+#Country {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #888888;
+
+}
+
+.sub-input {
+
+    width: 27.5% !important;
+}
+
+#file {
+
+    width: 55.8%;
+
+    border: 2px #bbbbbb dashed;
+    padding-left: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 200px;
+
+
+}
+
+textarea {
+    border: 1px solid #bbbbbb;
+    border-radius: 2px;
+    margin-left: 20%;
+    margin-top: -20px;
+}
+
+#al {
+    display: block;
+}
+
+input[type="submit" i] {
+    margin-left: 40%;
+    padding: 7px 25px;
+    background-color: rgb(10, 99, 195);
+    color: #fff;
+    font-weight: 500;
+
+    border: 2px double black;
+    border-radius: 2px;
+
+
+}
